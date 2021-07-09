@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import ParticleBackground from "./components/ParticleBackground";
 import Header from "./components/Header"
+import Buttons from "./components/Buttons";
 import './App.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,19 +19,11 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Buttons/>
       <ParticleBackground/>
     </div>
   );
 }
 
-function CenterTitle() {
-  return (
-    <div id="text_div center_all">
-      <div className="center_all">
-        <h1 className="custom-subTitle">Particle Js Integration</h1>
-      </div>
-    </div>
-  )
-}
 
 export default App;

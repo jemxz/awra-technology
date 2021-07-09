@@ -1,0 +1,24 @@
+.primarybtn {
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.secondarybtn {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    
+}
+.anchorbtn {
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.mainbuttons {
+    z-index: 1;
+  margin: 5% auto;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);  
+}

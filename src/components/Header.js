@@ -30,12 +30,12 @@ const Header = () => {
                     <span className="slider round"></span>
                 </label>
             </div>
-            <div id="not-dark" className="Header">
+            <div id="not-dark" className="Header ">
                 <div className="leftstick">
                     <Typewriter
                         options = {{
                             loop: false,
-                            cursor: '        '
+                            cursor: ''
                         }}
                         onInit={(typewriter) => {
                             typewriter
